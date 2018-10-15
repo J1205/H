@@ -3,7 +3,7 @@ library(gplots)
 library(RColorBrewer)
 
 setwd("~/Desktop")
-s = read.csv("b.csv", sep = ",", header = T, stringsAsFactors = F)
+s = read.csv("barres.csv", sep = ",", header = T, stringsAsFactors = F)
 dim(s)
 
 d <- s[,3:5] %>% as.matrix() 
